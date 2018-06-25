@@ -1,4 +1,4 @@
-# sentry-kafka
+# sentry-kafka二次开发
 
 An extension for [Sentry](https://github.com/getsentry/sentry) to forward events to [Apache Kafka](http://kafka.apache.org/) for logging.
 
@@ -12,3 +12,5 @@ You may optionally set the broker in the sentry config:
     KAFKA_BROKER='my.broker.com:9092'
 
 When set in the config, the broker field will be readonly for all projects.
+
+源仓库:https://github.com/Banno/getsentry-kafka
